@@ -1,0 +1,346 @@
+2020-06-20 10:49:59.897  INFO 19880 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Starting BlogMingApplication on LAPTOP-ADOVDU6E with PID 19880 (E:\Java_Project\blog-ming\target\classes started by 吴明雨 in E:\Java_Project\blog-ming)
+2020-06-20 10:49:59.966 DEBUG 19880 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Running with Spring Boot v2.1.15.RELEASE, Spring v5.1.16.RELEASE
+2020-06-20 10:49:59.966  INFO 19880 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : The following profiles are active: dev
+2020-06-20 10:50:00.353  INFO 19880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-20 10:50:00.354  INFO 19880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-20 10:50:02.273  INFO 19880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 10:50:02.274  INFO 19880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-20 10:50:02.318  INFO 19880 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Blogdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 10:50:02.320  INFO 19880 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Commentdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 10:50:02.321  INFO 19880 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Tagdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 10:50:02.323  INFO 19880 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Typedao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 10:50:02.325  INFO 19880 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Userdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 10:50:02.326  INFO 19880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 0 JDBC repository interfaces.
+2020-06-20 10:50:02.334  INFO 19880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 10:50:02.334  INFO 19880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-20 10:50:02.387  INFO 19880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49ms. Found 5 JPA repository interfaces.
+2020-06-20 10:50:03.428  INFO 19880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-20 10:50:03.658  INFO 19880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-20 10:50:03.658  INFO 19880 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-20 10:50:03.939  INFO 19880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-20 10:50:03.940  INFO 19880 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3585 ms
+2020-06-20 10:50:04.212  INFO 19880 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-20 10:50:06.340  INFO 19880 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-20 10:50:06.448  INFO 19880 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-20 10:50:06.605  INFO 19880 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.17.Final}
+2020-06-20 10:50:06.607  INFO 19880 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-20 10:50:07.026  INFO 19880 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-20 10:50:09.783  INFO 19880 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-20 10:50:13.798  INFO 19880 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 10:50:14.041  INFO 19880 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-20 10:50:14.535  INFO 19880 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-20 10:50:15.604  INFO 19880 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-20 10:50:15.650  WARN 19880 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-20 10:50:15.697  INFO 19880 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-20 10:50:16.737  INFO 19880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-20 10:50:16.740  INFO 19880 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Started BlogMingApplication in 17.921 seconds (JVM running for 24.673)
+2020-06-20 10:50:38.189  INFO 19880 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-20 10:50:38.189  INFO 19880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-20 10:50:38.203  INFO 19880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-06-20 10:50:38.270  INFO 19880 --- [http-nio-8080-exec-1] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:getIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-20 10:50:38.543  WARN 19880 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-20 10:50:38.554  WARN 19880 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-20 10:50:38.585  INFO 19880 --- [http-nio-8080-exec-1] cn.ming.blogming.Aspect.LogAspect        : Result: index
+2020-06-20 10:50:39.948  INFO 19880 --- [http-nio-8080-exec-5] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-06-20 10:50:39.958  INFO 19880 --- [http-nio-8080-exec-5] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-06-20 10:50:45.682  INFO 19880 --- [http-nio-8080-exec-9] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.TypeShowController:types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-20 10:50:45.703  INFO 19880 --- [http-nio-8080-exec-9] cn.ming.blogming.Aspect.LogAspect        : Result: types
+2020-06-20 10:50:46.010  INFO 19880 --- [http-nio-8080-exec-7] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-06-20 10:50:46.018  INFO 19880 --- [http-nio-8080-exec-7] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-06-20 10:50:47.968  INFO 19880 --- [http-nio-8080-exec-2] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.TagShowController:tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-06-20 10:50:47.995  INFO 19880 --- [http-nio-8080-exec-2] cn.ming.blogming.Aspect.LogAspect        : Result: tags
+2020-06-20 10:50:48.369  INFO 19880 --- [http-nio-8080-exec-6] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-06-20 10:50:48.381  INFO 19880 --- [http-nio-8080-exec-6] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-06-20 10:50:48.926  INFO 19880 --- [http-nio-8080-exec-3] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:getIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-20 10:50:48.946  INFO 19880 --- [http-nio-8080-exec-3] cn.ming.blogming.Aspect.LogAspect        : Result: index
+2020-06-20 10:50:49.378  INFO 19880 --- [http-nio-8080-exec-5] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-06-20 10:50:49.392  INFO 19880 --- [http-nio-8080-exec-5] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-06-20 21:13:31.842  INFO 23428 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Starting BlogMingApplication on LAPTOP-ADOVDU6E with PID 23428 (E:\Java_Project\blog-ming\target\classes started by 吴明雨 in E:\Java_Project\blog-ming)
+2020-06-20 21:13:31.854 DEBUG 23428 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Running with Spring Boot v2.1.15.RELEASE, Spring v5.1.16.RELEASE
+2020-06-20 21:13:31.854  INFO 23428 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : The following profiles are active: dev
+2020-06-20 21:13:31.944  INFO 23428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-20 21:13:31.945  INFO 23428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-20 21:13:32.786  INFO 23428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 21:13:32.787  INFO 23428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-20 21:13:32.825  INFO 23428 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Blogdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:13:32.827  INFO 23428 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Commentdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:13:32.828  INFO 23428 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Tagdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:13:32.829  INFO 23428 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Typedao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:13:32.830  INFO 23428 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Userdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:13:32.831  INFO 23428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 0 JDBC repository interfaces.
+2020-06-20 21:13:32.839  INFO 23428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 21:13:32.839  INFO 23428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-20 21:13:32.884  INFO 23428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 5 JPA repository interfaces.
+2020-06-20 21:13:33.706  INFO 23428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-20 21:13:33.730  INFO 23428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-20 21:13:33.730  INFO 23428 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-20 21:13:33.928  INFO 23428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-20 21:13:33.928  INFO 23428 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1983 ms
+2020-06-20 21:13:34.135  INFO 23428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-20 21:13:36.059  INFO 23428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-20 21:13:36.140  INFO 23428 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-20 21:13:36.226  INFO 23428 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.17.Final}
+2020-06-20 21:13:36.227  INFO 23428 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-20 21:13:36.456  INFO 23428 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-20 21:13:36.670  INFO 23428 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-20 21:13:40.647  INFO 23428 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 21:13:40.770  INFO 23428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-20 21:13:41.099  INFO 23428 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-20 21:13:42.001  INFO 23428 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-20 21:13:42.049  WARN 23428 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-20 21:13:42.092  INFO 23428 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-20 21:13:42.730  INFO 23428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-20 21:13:42.736  INFO 23428 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Started BlogMingApplication in 11.853 seconds (JVM running for 14.783)
+2020-06-20 21:15:18.562  INFO 23428 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-20 21:15:18.563  INFO 23428 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 21:15:18.567  INFO 23428 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-20 21:15:18.578  INFO 23428 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-20 21:15:20.263  INFO 23428 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Starting BlogMingApplication on LAPTOP-ADOVDU6E with PID 23428 (E:\Java_Project\blog-ming\target\classes started by 吴明雨 in E:\Java_Project\blog-ming)
+2020-06-20 21:15:20.263 DEBUG 23428 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Running with Spring Boot v2.1.15.RELEASE, Spring v5.1.16.RELEASE
+2020-06-20 21:15:20.263  INFO 23428 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : The following profiles are active: dev
+2020-06-20 21:15:20.464  INFO 23428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 21:15:20.465  INFO 23428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-20 21:15:20.476  INFO 23428 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Blogdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:15:20.477  INFO 23428 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Commentdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:15:20.478  INFO 23428 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Tagdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:15:20.479  INFO 23428 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Typedao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:15:20.480  INFO 23428 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Userdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:15:20.480  INFO 23428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 JDBC repository interfaces.
+2020-06-20 21:15:20.483  INFO 23428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 21:15:20.483  INFO 23428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-20 21:15:20.500  INFO 23428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 5 JPA repository interfaces.
+2020-06-20 21:15:20.704  INFO 23428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-20 21:15:20.705  INFO 23428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-20 21:15:20.705  INFO 23428 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-20 21:15:20.751  INFO 23428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-20 21:15:20.752  INFO 23428 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 487 ms
+2020-06-20 21:15:20.803  INFO 23428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-06-20 21:15:20.822  INFO 23428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-06-20 21:15:20.834  INFO 23428 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-20 21:15:20.895  INFO 23428 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-20 21:15:23.116  INFO 23428 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 21:15:23.155  INFO 23428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-20 21:15:23.271  INFO 23428 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-20 21:15:23.716  INFO 23428 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-20 21:15:23.740  WARN 23428 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-20 21:15:23.784  INFO 23428 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-20 21:15:24.182  INFO 23428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-20 21:15:24.183  INFO 23428 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Started BlogMingApplication in 3.955 seconds (JVM running for 116.229)
+2020-06-20 21:15:24.185  INFO 23428 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-06-20 21:17:18.800  INFO 23428 --- [Thread-32] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-20 21:17:18.803  INFO 23428 --- [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 21:17:18.805  INFO 23428 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-06-20 21:17:18.862  INFO 23428 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-06-20 21:31:12.671  INFO 16716 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Starting BlogMingApplication on LAPTOP-ADOVDU6E with PID 16716 (E:\Java_Project\blog-ming\target\classes started by 吴明雨 in E:\Java_Project\blog-ming)
+2020-06-20 21:31:12.672 DEBUG 16716 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Running with Spring Boot v2.1.15.RELEASE, Spring v5.1.16.RELEASE
+2020-06-20 21:31:12.672  INFO 16716 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : The following profiles are active: dev
+2020-06-20 21:31:12.703  INFO 16716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-20 21:31:12.703  INFO 16716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-20 21:31:13.366  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 21:31:13.366  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-20 21:31:13.418  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Blogdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:31:13.420  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Commentdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:31:13.422  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Tagdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:31:13.424  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Typedao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:31:13.426  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Userdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:31:13.426  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 0 JDBC repository interfaces.
+2020-06-20 21:31:13.433  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 21:31:13.433  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-20 21:31:13.476  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 5 JPA repository interfaces.
+2020-06-20 21:31:14.380  INFO 16716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-20 21:31:14.467  INFO 16716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-20 21:31:14.468  INFO 16716 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-20 21:31:14.611  INFO 16716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-20 21:31:14.611  INFO 16716 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1908 ms
+2020-06-20 21:31:14.798  INFO 16716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-20 21:31:16.593  INFO 16716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-20 21:31:16.692  INFO 16716 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-20 21:31:16.787  INFO 16716 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.17.Final}
+2020-06-20 21:31:16.789  INFO 16716 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-20 21:31:17.006  INFO 16716 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-20 21:31:17.193  INFO 16716 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-20 21:31:19.948  INFO 16716 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 21:31:20.023  INFO 16716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-20 21:31:20.309  INFO 16716 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-20 21:31:21.160  INFO 16716 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-20 21:31:21.205  WARN 16716 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-20 21:31:21.258  INFO 16716 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-20 21:31:21.706  INFO 16716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-20 21:31:21.707  INFO 16716 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Started BlogMingApplication in 9.488 seconds (JVM running for 12.346)
+2020-06-20 21:31:37.677  INFO 16716 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-20 21:31:37.678  INFO 16716 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 21:31:37.682  INFO 16716 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-20 21:31:37.691  INFO 16716 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-20 21:31:39.444  INFO 16716 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Starting BlogMingApplication on LAPTOP-ADOVDU6E with PID 16716 (E:\Java_Project\blog-ming\target\classes started by 吴明雨 in E:\Java_Project\blog-ming)
+2020-06-20 21:31:39.445 DEBUG 16716 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Running with Spring Boot v2.1.15.RELEASE, Spring v5.1.16.RELEASE
+2020-06-20 21:31:39.445  INFO 16716 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : The following profiles are active: dev
+2020-06-20 21:31:39.680  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 21:31:39.680  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-20 21:31:39.689  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Blogdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:31:39.691  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Commentdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:31:39.693  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Tagdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:31:39.694  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Typedao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:31:39.696  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Userdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:31:39.696  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 JDBC repository interfaces.
+2020-06-20 21:31:39.699  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 21:31:39.699  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-20 21:31:39.718  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 5 JPA repository interfaces.
+2020-06-20 21:31:39.938  INFO 16716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-20 21:31:39.939  INFO 16716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-20 21:31:39.940  INFO 16716 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-20 21:31:39.986  INFO 16716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-20 21:31:39.986  INFO 16716 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 539 ms
+2020-06-20 21:31:40.040  INFO 16716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-06-20 21:31:40.054  INFO 16716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-06-20 21:31:40.065  INFO 16716 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-20 21:31:40.125  INFO 16716 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-20 21:31:41.890  INFO 16716 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 21:31:41.917  INFO 16716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-20 21:31:41.993  INFO 16716 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-20 21:31:42.323  INFO 16716 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-20 21:31:42.336  WARN 16716 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-20 21:31:42.364  INFO 16716 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-20 21:31:42.670  INFO 16716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-20 21:31:42.671  INFO 16716 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Started BlogMingApplication in 3.275 seconds (JVM running for 33.309)
+2020-06-20 21:31:42.673  INFO 16716 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-06-20 21:33:19.475  INFO 16716 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-20 21:33:19.476  INFO 16716 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 21:33:19.477  INFO 16716 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-06-20 21:33:19.486  INFO 16716 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-06-20 21:34:03.760  INFO 16716 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Starting BlogMingApplication on LAPTOP-ADOVDU6E with PID 16716 (E:\Java_Project\blog-ming\target\classes started by 吴明雨 in E:\Java_Project\blog-ming)
+2020-06-20 21:34:03.760 DEBUG 16716 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Running with Spring Boot v2.1.15.RELEASE, Spring v5.1.16.RELEASE
+2020-06-20 21:34:03.760  INFO 16716 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : The following profiles are active: dev
+2020-06-20 21:34:03.985  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 21:34:03.985  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-20 21:34:04.023  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Blogdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:34:04.025  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Commentdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:34:04.027  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Tagdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:34:04.029  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Typedao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:34:04.031  INFO 16716 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Userdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:34:04.031  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46ms. Found 0 JDBC repository interfaces.
+2020-06-20 21:34:04.034  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 21:34:04.035  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-20 21:34:04.067  INFO 16716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 5 JPA repository interfaces.
+2020-06-20 21:34:04.303  INFO 16716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-20 21:34:04.304  INFO 16716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-20 21:34:04.304  INFO 16716 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-20 21:34:04.356  INFO 16716 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-06-20 21:34:04.357  INFO 16716 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 595 ms
+2020-06-20 21:34:04.409  INFO 16716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-06-20 21:34:04.435  INFO 16716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-06-20 21:34:04.451  INFO 16716 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-20 21:34:04.555  INFO 16716 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-20 21:34:06.717  INFO 16716 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 21:34:06.726  INFO 16716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-20 21:34:06.804  INFO 16716 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-20 21:34:06.809  WARN 16716 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-20 21:34:06.817  INFO 16716 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-20 21:34:06.851  INFO 16716 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-20 21:34:07.051  INFO 16716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-20 21:34:07.051  INFO 16716 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Started BlogMingApplication in 3.336 seconds (JVM running for 177.69)
+2020-06-20 21:34:07.053  INFO 16716 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-06-20 21:41:04.616  INFO 22900 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Starting BlogMingApplication on LAPTOP-ADOVDU6E with PID 22900 (E:\Java_Project\blog-ming\target\classes started by 吴明雨 in E:\Java_Project\blog-ming)
+2020-06-20 21:41:04.618 DEBUG 22900 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Running with Spring Boot v2.1.15.RELEASE, Spring v5.1.16.RELEASE
+2020-06-20 21:41:04.618  INFO 22900 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : The following profiles are active: dev
+2020-06-20 21:41:04.691  INFO 22900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-20 21:41:04.691  INFO 22900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-20 21:41:05.248  INFO 22900 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 21:41:05.249  INFO 22900 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-20 21:41:05.285  INFO 22900 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Blogdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:41:05.287  INFO 22900 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Commentdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:41:05.288  INFO 22900 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Tagdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:41:05.289  INFO 22900 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Typedao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:41:05.291  INFO 22900 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Userdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 21:41:05.291  INFO 22900 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 0 JDBC repository interfaces.
+2020-06-20 21:41:05.297  INFO 22900 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 21:41:05.297  INFO 22900 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-20 21:41:05.341  INFO 22900 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 5 JPA repository interfaces.
+2020-06-20 21:41:06.060  INFO 22900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-20 21:41:06.133  INFO 22900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-20 21:41:06.133  INFO 22900 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-20 21:41:06.259  INFO 22900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-20 21:41:06.259  INFO 22900 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1568 ms
+2020-06-20 21:41:06.387  INFO 22900 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-20 21:41:07.767  INFO 22900 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-20 21:41:07.805  INFO 22900 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-20 21:41:07.845  INFO 22900 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.17.Final}
+2020-06-20 21:41:07.846  INFO 22900 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-20 21:41:07.936  INFO 22900 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-20 21:41:08.105  INFO 22900 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-20 21:41:10.383  INFO 22900 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 21:41:10.441  INFO 22900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-20 21:41:10.689  INFO 22900 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-20 21:41:11.365  INFO 22900 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-20 21:41:11.404  WARN 22900 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-20 21:41:11.453  INFO 22900 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-20 21:41:11.848  INFO 22900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-20 21:41:11.849  INFO 22900 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Started BlogMingApplication in 7.804 seconds (JVM running for 10.539)
+2020-06-20 21:41:36.172  INFO 22900 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-20 21:41:36.175  INFO 22900 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 21:41:36.180  INFO 22900 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-20 21:41:36.189  INFO 22900 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-20 22:01:00.539  INFO 22624 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Starting BlogMingApplication on LAPTOP-ADOVDU6E with PID 22624 (E:\Java_Project\blog-ming\target\classes started by 吴明雨 in E:\Java_Project\blog-ming)
+2020-06-20 22:01:00.542 DEBUG 22624 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Running with Spring Boot v2.1.15.RELEASE, Spring v5.1.16.RELEASE
+2020-06-20 22:01:00.542  INFO 22624 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : The following profiles are active: dev
+2020-06-20 22:01:00.614  INFO 22624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-20 22:01:00.614  INFO 22624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-20 22:01:01.185  INFO 22624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 22:01:01.186  INFO 22624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-20 22:01:01.221  INFO 22624 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Blogdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 22:01:01.222  INFO 22624 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Commentdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 22:01:01.224  INFO 22624 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Tagdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 22:01:01.225  INFO 22624 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Typedao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 22:01:01.226  INFO 22624 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Userdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-06-20 22:01:01.227  INFO 22624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 0 JDBC repository interfaces.
+2020-06-20 22:01:01.232  INFO 22624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-20 22:01:01.232  INFO 22624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-20 22:01:01.272  INFO 22624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 5 JPA repository interfaces.
+2020-06-20 22:01:02.017  INFO 22624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-20 22:01:02.043  INFO 22624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-20 22:01:02.044  INFO 22624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-20 22:01:02.225  INFO 22624 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-20 22:01:02.225  INFO 22624 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1611 ms
+2020-06-20 22:01:02.360  INFO 22624 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-20 22:01:03.743  INFO 22624 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-20 22:01:03.780  INFO 22624 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-20 22:01:03.821  INFO 22624 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.17.Final}
+2020-06-20 22:01:03.823  INFO 22624 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-20 22:01:03.912  INFO 22624 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-20 22:01:04.083  INFO 22624 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-20 22:01:06.695  INFO 22624 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 22:01:06.772  INFO 22624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-20 22:01:07.032  INFO 22624 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-06-20 22:01:07.721  INFO 22624 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-20 22:01:07.759  WARN 22624 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-20 22:01:07.800  INFO 22624 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-20 22:01:08.290  INFO 22624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-20 22:01:08.291  INFO 22624 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Started BlogMingApplication in 8.144 seconds (JVM running for 11.75)
+2020-06-20 22:01:32.497  INFO 22624 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-20 22:01:32.497  INFO 22624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-20 22:01:32.506  INFO 22624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-06-20 22:01:32.548  INFO 22624 --- [http-nio-8080-exec-1] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:getIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-06-20 22:01:32.764  WARN 22624 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-20 22:01:32.804  WARN 22624 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-06-20 22:01:32.848  INFO 22624 --- [http-nio-8080-exec-1] cn.ming.blogming.Aspect.LogAspect        : Result: index
+2020-06-20 22:01:33.584  INFO 22624 --- [http-nio-8080-exec-10] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-06-20 22:01:33.596  INFO 22624 --- [http-nio-8080-exec-10] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-06-20 22:01:39.141  INFO 22624 --- [http-nio-8080-exec-3] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-06-20 22:01:39.155  INFO 22624 --- [http-nio-8080-exec-3] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-06-20 22:01:42.027  INFO 22624 --- [http-nio-8080-exec-5] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-06-20 22:01:42.041  INFO 22624 --- [http-nio-8080-exec-5] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList

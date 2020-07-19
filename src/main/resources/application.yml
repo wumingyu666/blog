@@ -1,0 +1,15 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+  messages:
+    basename: i18n/messages
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+
+comment.avator: /images/avator.jpg
+server:
+  port: 80

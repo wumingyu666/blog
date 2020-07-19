@@ -1,0 +1,75 @@
+2020-07-10 20:05:46.325  INFO 19596 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Starting BlogMingApplication on LAPTOP-ADOVDU6E with PID 19596 (E:\Java_Project\blog-ming\target\classes started by 吴明雨 in E:\Java_Project\blog-ming)
+2020-07-10 20:05:46.363 DEBUG 19596 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Running with Spring Boot v2.1.15.RELEASE, Spring v5.1.16.RELEASE
+2020-07-10 20:05:46.364  INFO 19596 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : The following profiles are active: dev
+2020-07-10 20:05:46.545  INFO 19596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-10 20:05:46.546  INFO 19596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-10 20:05:52.237  INFO 19596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-10 20:05:52.238  INFO 19596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-07-10 20:05:52.704  INFO 19596 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Blogdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-07-10 20:05:52.709  INFO 19596 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Commentdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-07-10 20:05:52.712  INFO 19596 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Tagdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-07-10 20:05:52.720  INFO 19596 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Typedao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-07-10 20:05:52.724  INFO 19596 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface cn.ming.blogming.dao.Userdao. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-07-10 20:05:52.726  INFO 19596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 415ms. Found 0 JDBC repository interfaces.
+2020-07-10 20:05:52.741  INFO 19596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-10 20:05:52.742  INFO 19596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-10 20:05:52.930  INFO 19596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183ms. Found 5 JPA repository interfaces.
+2020-07-10 20:05:56.657  INFO 19596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-07-10 20:05:56.835  INFO 19596 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-10 20:05:56.836  INFO 19596 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 20:05:57.330  INFO 19596 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-10 20:05:57.331  INFO 19596 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10784 ms
+2020-07-10 20:05:58.672  INFO 19596 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-10 20:06:06.789  INFO 19596 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-10 20:06:07.190  INFO 19596 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-10 20:06:07.801  INFO 19596 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.17.Final}
+2020-07-10 20:06:07.826  INFO 19596 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false, hibernate.dialect.storage_engine=innodb}
+2020-07-10 20:06:09.026  INFO 19596 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-07-10 20:06:11.915  INFO 19596 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-10 20:06:23.256  INFO 19596 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-10 20:06:23.673  INFO 19596 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-10 20:06:25.196  INFO 19596 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-07-10 20:06:27.988  INFO 19596 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-10 20:06:28.158  WARN 19596 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-10 20:06:28.263  INFO 19596 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-10 20:06:29.724  INFO 19596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2020-07-10 20:06:29.727  INFO 19596 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Started BlogMingApplication in 50.676 seconds (JVM running for 60.974)
+2020-07-10 20:06:43.593  INFO 19596 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 20:06:43.596  INFO 19596 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-10 20:06:43.625  INFO 19596 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2020-07-10 20:06:46.210  INFO 19596 --- [http-nio-80-exec-6] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-07-10 20:06:47.942  INFO 19596 --- [http-nio-80-exec-6] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-07-10 20:06:57.225  INFO 19596 --- [http-nio-80-exec-4] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-07-10 20:06:57.257  INFO 19596 --- [http-nio-80-exec-4] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-07-10 20:08:13.379  INFO 19596 --- [http-nio-80-exec-10] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-07-10 20:08:13.394  INFO 19596 --- [http-nio-80-exec-10] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-07-10 20:08:19.036  INFO 19596 --- [http-nio-80-exec-1] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:getIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-07-10 20:08:19.064  WARN 19596 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-07-10 20:08:19.114  WARN 19596 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-07-10 20:08:19.128  INFO 19596 --- [http-nio-80-exec-1] cn.ming.blogming.Aspect.LogAspect        : Result: index
+2020-07-10 20:08:19.915  INFO 19596 --- [http-nio-80-exec-9] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-07-10 20:08:19.937  INFO 19596 --- [http-nio-80-exec-9] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-07-10 20:08:23.174  INFO 19596 --- [http-nio-80-exec-6] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:blog', args=[23, {}]}
+2020-07-10 20:08:23.390  INFO 19596 --- [http-nio-80-exec-6] cn.ming.blogming.Aspect.LogAspect        : Result: blog
+2020-07-10 20:08:24.394  INFO 19596 --- [http-nio-80-exec-8] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-07-10 20:08:24.420  INFO 19596 --- [http-nio-80-exec-8] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-07-10 20:08:24.710  INFO 19596 --- [http-nio-80-exec-5] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.CommentController:comments', args=[23, {}]}
+2020-07-10 20:08:24.856  INFO 19596 --- [http-nio-80-exec-5] cn.ming.blogming.Aspect.LogAspect        : Result: blog::commentList
+2020-07-10 20:45:34.791  INFO 19596 --- [http-nio-80-exec-8] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-07-10 20:45:35.231  INFO 19596 --- [http-nio-80-exec-8] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-07-10 20:45:37.340  INFO 19596 --- [http-nio-80-exec-9] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-07-10 20:45:37.360  INFO 19596 --- [http-nio-80-exec-9] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-07-10 20:45:55.791  INFO 19596 --- [http-nio-80-exec-3] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-07-10 20:45:55.808  INFO 19596 --- [http-nio-80-exec-3] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-07-10 20:45:59.854  INFO 19596 --- [http-nio-80-exec-3] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:getIndex', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-07-10 20:45:59.879  INFO 19596 --- [http-nio-80-exec-3] cn.ming.blogming.Aspect.LogAspect        : Result: index
+2020-07-10 20:46:00.613  INFO 19596 --- [http-nio-80-exec-1] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-07-10 20:46:00.639  INFO 19596 --- [http-nio-80-exec-1] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-07-10 20:46:02.980  INFO 19596 --- [http-nio-80-exec-4] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:blog', args=[23, {}]}
+2020-07-10 20:46:03.211  INFO 19596 --- [http-nio-80-exec-4] cn.ming.blogming.Aspect.LogAspect        : Result: blog
+2020-07-10 20:46:03.830  INFO 19596 --- [http-nio-80-exec-6] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.IndexController:newblogs', args=[{}]}
+2020-07-10 20:46:03.846  INFO 19596 --- [http-nio-80-exec-6] cn.ming.blogming.Aspect.LogAspect        : Result: _fragments :: newblogList
+2020-07-10 20:46:03.974  INFO 19596 --- [http-nio-80-exec-2] cn.ming.blogming.Aspect.LogAspect        : Request: RequestLog{url='http://localhost/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='class cn.ming.blogming.web.CommentController:comments', args=[23, {}]}
+2020-07-10 20:46:03.995  INFO 19596 --- [http-nio-80-exec-2] cn.ming.blogming.Aspect.LogAspect        : Result: blog::commentList

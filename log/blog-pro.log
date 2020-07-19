@@ -1,0 +1,5 @@
+2020-06-15 22:35:28.095  INFO 16000 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Starting BlogMingApplication on PC-20180120JHGF with PID 16000 (E:\Java_Project\blog-ming\target\classes started by Administrator in E:\Java_Project\blog-ming)
+2020-06-15 22:35:28.098  INFO 16000 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : The following profiles are active: pro
+2020-06-15 22:35:31.031  WARN 16000 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-15 22:35:31.110  WARN 16000 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-06-15 22:35:31.350  INFO 16000 --- [restartedMain] cn.ming.blogming.BlogMingApplication     : Started BlogMingApplication in 4.362 seconds (JVM running for 5.489)
